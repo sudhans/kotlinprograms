@@ -10,16 +10,17 @@ class LongestPalindrome {
 
     fun findLongestPalindrome(str: String): List<String> {
         val palindromeList = mutableListOf<String>()
-        if (str.isEmpty()) {
-            return palindromeList
-        }
-        for (i in 0..str.length) {
-            val subString = str.substring(i)
-            if (isPalindrome(subString)) {
-                palindromeList.add(subString)
+        if (isPalindrome(str)) {
+            palindromeList.apply {
+                add(str)
             }
         }
-        println(palindromeList)
+
+        StringUtils().getAllSubStrings(str)
+            .filter {it.length>1}
+            .filter{isPalindrome(it)}
+            .toCollection(palindromeList)
+        println("Palindrome List:: $palindromeList")
         return palindromeList
     }
 

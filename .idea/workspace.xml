@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="471bcba6-5dff-4e58-a45f-cd6d7e53963e" name="Changes" comment="Longest Palindrome - In Progress">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="471bcba6-5dff-4e58-a45f-cd6d7e53963e" name="Changes" comment="Update Gradle &amp; Workspace">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/QuickSort.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/StringUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/QuickSortTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/StringUtilsTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/LongestPalindrome.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/LongestPalindrome.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/LongestPalindromeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/LongestPalindromeTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -45,14 +52,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.LongestPalindromeTest.testValidPalindromeString">
+}]]></component>
+  <component name="RunManager" selected="Gradle.QuickSortTest.testQuickSortBig">
     <configuration name="LongestPalindromeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -76,7 +84,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LongestPalindromeTest.testLongestPalindrome" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LongestPalindromeTest.testStringWithTwoEqualLengthButNotLongest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -89,7 +97,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;LongestPalindromeTest.testLongestPalindrome&quot;" />
+            <option value="&quot;LongestPalindromeTest.testStringWithTwoEqualLengthButNotLongest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -99,7 +107,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LongestPalindromeTest.testPrint" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuickSortTest.testQuickSortBig" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -112,7 +120,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;LongestPalindromeTest.testPrint&quot;" />
+            <option value="&quot;QuickSortTest.testQuickSortBig&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -122,7 +130,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LongestPalindromeTest.testValidPalindromeString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuickSortTest.testQuickSortSimple" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -135,7 +143,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;LongestPalindromeTest.testValidPalindromeString&quot;" />
+            <option value="&quot;QuickSortTest.testQuickSortSimple&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StringUtilsTest.testGetAllSubStrings" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;StringUtilsTest.testGetAllSubStrings&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -147,10 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LongestPalindromeTest.testValidPalindromeString" />
+        <item itemvalue="Gradle.QuickSortTest.testQuickSortBig" />
+        <item itemvalue="Gradle.QuickSortTest.testQuickSortSimple" />
+        <item itemvalue="Gradle.LongestPalindromeTest.testStringWithTwoEqualLengthButNotLongest" />
         <item itemvalue="Gradle.LongestPalindromeTest" />
-        <item itemvalue="Gradle.LongestPalindromeTest.testLongestPalindrome" />
-        <item itemvalue="Gradle.LongestPalindromeTest.testPrint" />
+        <item itemvalue="Gradle.StringUtilsTest.testGetAllSubStrings" />
       </list>
     </recent_temporary>
   </component>

@@ -25,4 +25,12 @@ internal class LongestPalindromeTest {
             "bab, aba are both valid answers"
         )
     }
+
+    @Test
+    fun testStringWithTwoEqualLengthButNotLongest() {
+        assertTrue(
+            longestPalindrome.findLongestPalindrome("babadda").containsAll(listOf("adda", "aba")),
+            "bab, aba are both valid answers"
+        )
+    }
 }
