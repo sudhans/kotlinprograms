@@ -1,4 +1,5 @@
 
+import sorting.QuickSort
 import kotlin.test.Test
 import kotlin.test.assertTrue
 

@@ -1,3 +1,4 @@
+import sorting.MergeSort
 import kotlin.test.Test
 import kotlin.test.assertTrue
 

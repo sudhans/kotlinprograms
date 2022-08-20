@@ -1,3 +1,5 @@
+package sorting
+
 class MergeSort {
 
     fun sort(arr: IntArray): IntArray {

@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Test
+import sorting.InsertionSort
 import kotlin.test.assertTrue
 
 internal class InsertionSortTest {

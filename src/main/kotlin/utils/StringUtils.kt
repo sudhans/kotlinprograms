@@ -1,3 +1,5 @@
+package utils
+
 class StringUtils {
 
     fun getAllSubStrings(input: String): List<String> {

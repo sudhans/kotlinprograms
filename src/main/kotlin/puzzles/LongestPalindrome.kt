@@ -1,3 +1,7 @@
+package puzzles
+
+import utils.StringUtils
+
 /*
 Given a string s, return the longest palindromic substring in s.
 

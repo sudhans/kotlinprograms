@@ -1,3 +1,5 @@
+package sorting
+
 class QuickSort {
 
     fun sort(input: Array<Int>) {

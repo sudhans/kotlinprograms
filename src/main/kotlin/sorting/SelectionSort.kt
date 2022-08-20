@@ -1,3 +1,5 @@
+package sorting
+
 class SelectionSort {
 
     fun sort(arr: IntArray): IntArray {

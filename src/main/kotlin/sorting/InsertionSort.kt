@@ -1,3 +1,5 @@
+package sorting
+
 class InsertionSort {
 
     fun sort(arr: IntArray): IntArray {

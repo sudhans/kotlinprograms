@@ -5,14 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="471bcba6-5dff-4e58-a45f-cd6d7e53963e" name="Changes" comment="Update Gradle &amp; Workspace">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/QuickSort.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/StringUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/QuickSortTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/StringUtilsTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/LaunchJobExample01.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/RunBlocking01.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/coroutines/LaunchJobExample01Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/coroutines/RunBlocking01Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/LongestPalindrome.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/LongestPalindrome.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/InsertionSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sorting/InsertionSort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/LongestPalindrome.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/LongestPalindrome.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/MergeSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sorting/MergeSort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/QuickSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sorting/QuickSort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SelectionSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sorting/SelectionSort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/StringUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/utils/StringUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/InsertionSortTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/InsertionSortTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/LongestPalindromeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/LongestPalindromeTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/MergeSortTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/MergeSortTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/QuickSortTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/QuickSortTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/SelectionSortTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/SelectionSortTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/StringUtilsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/StringUtilsTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,56 +72,24 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/msd/IdeaProjects/kotlinprograms/src/main/kotlin/coroutines",
     "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.QuickSortTest.testQuickSortBig">
-    <configuration name="LongestPalindromeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;LongestPalindromeTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="LongestPalindromeTest.testStringWithTwoEqualLengthButNotLongest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;LongestPalindromeTest.testStringWithTwoEqualLengthButNotLongest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/coroutines" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="puzzles" />
+      <recent name="utils" />
+      <recent name="sorting" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="coroutines" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.LaunchJobExample01Kt">
     <configuration name="QuickSortTest.testQuickSortBig" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -130,7 +113,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuickSortTest.testQuickSortSimple" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RunBlocking01Test.runBlockingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -143,7 +126,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;QuickSortTest.testQuickSortSimple&quot;" />
+            <option value="&quot;coroutines.RunBlocking01Test.runBlockingTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -153,7 +136,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StringUtilsTest.testGetAllSubStrings" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'kotlinprograms.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -165,8 +148,6 @@
         <option name="taskNames">
           <list>
             <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;StringUtilsTest.testGetAllSubStrings&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -175,14 +156,28 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
+    </configuration>
+    <configuration name="LaunchJobExample01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coroutines.LaunchJobExample01Kt" />
+      <module name="kotlinprograms.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunBlocking01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coroutines.RunBlocking01Kt" />
+      <module name="kotlinprograms.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LaunchJobExample01Kt" />
+        <item itemvalue="Kotlin.RunBlocking01Kt" />
+        <item itemvalue="Gradle.RunBlocking01Test.runBlockingTest" />
+        <item itemvalue="Gradle.Tests in 'kotlinprograms.test'" />
         <item itemvalue="Gradle.QuickSortTest.testQuickSortBig" />
-        <item itemvalue="Gradle.QuickSortTest.testQuickSortSimple" />
-        <item itemvalue="Gradle.LongestPalindromeTest.testStringWithTwoEqualLengthButNotLongest" />
-        <item itemvalue="Gradle.LongestPalindromeTest" />
-        <item itemvalue="Gradle.StringUtilsTest.testGetAllSubStrings" />
       </list>
     </recent_temporary>
   </component>
