@@ -5,29 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="471bcba6-5dff-4e58-a45f-cd6d7e53963e" name="Changes" comment="Update Gradle &amp; Workspace">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/LaunchJobExample01.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/RunBlocking01.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/coroutines/LaunchJobExample01Test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/coroutines/RunBlocking01Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/sorting/SortOddEven.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/SortOddEvenTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/InsertionSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sorting/InsertionSort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/LongestPalindrome.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/LongestPalindrome.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/MergeSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sorting/MergeSort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/QuickSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sorting/QuickSort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SelectionSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/sorting/SelectionSort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/StringUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/utils/StringUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/InsertionSortTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/InsertionSortTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/LongestPalindromeTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/LongestPalindromeTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/MergeSortTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/MergeSortTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/QuickSortTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/QuickSortTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/SelectionSortTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/SelectionSortTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/StringUtilsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/StringUtilsTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,15 +51,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/msd/IdeaProjects/kotlinprograms/src/main/kotlin/coroutines",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/msd/IdeaProjects/kotlinprograms/src/main/kotlin/coroutines&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/coroutines" />
@@ -89,8 +73,8 @@
       <recent name="coroutines" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.LaunchJobExample01Kt">
-    <configuration name="QuickSortTest.testQuickSortBig" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SortOddEvenTest.testSortElevenNumber">
+    <configuration name="SortOddEvenTest.testSort" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -103,7 +87,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;QuickSortTest.testQuickSortBig&quot;" />
+            <option value="&quot;SortOddEvenTest.testSort&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -113,7 +97,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RunBlocking01Test.runBlockingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SortOddEvenTest.testSortElevenNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -126,7 +110,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;coroutines.RunBlocking01Test.runBlockingTest&quot;" />
+            <option value="&quot;SortOddEvenTest.testSortElevenNumber&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -136,7 +120,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'kotlinprograms.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SortOddEvenTest.testSortTenNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -148,6 +132,8 @@
         <option name="taskNames">
           <list>
             <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SortOddEvenTest.testSortTenNumber&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -171,13 +157,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SortOddEvenTest.testSortElevenNumber" />
+        <item itemvalue="Gradle.SortOddEvenTest.testSortTenNumber" />
+        <item itemvalue="Gradle.SortOddEvenTest.testSort" />
         <item itemvalue="Kotlin.LaunchJobExample01Kt" />
         <item itemvalue="Kotlin.RunBlocking01Kt" />
-        <item itemvalue="Gradle.RunBlocking01Test.runBlockingTest" />
-        <item itemvalue="Gradle.Tests in 'kotlinprograms.test'" />
-        <item itemvalue="Gradle.QuickSortTest.testQuickSortBig" />
       </list>
     </recent_temporary>
   </component>
