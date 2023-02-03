@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="471bcba6-5dff-4e58-a45f-cd6d7e53963e" name="Changes" comment="Update Gradle &amp; Workspace">
+    <list default="true" id="471bcba6-5dff-4e58-a45f-cd6d7e53963e" name="Changes" comment="Sorting by Colors / Odd numbers first&#10;Update Gradle &amp; Workspace">
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/sorting/SortOddEven.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/kotlin/SortOddEvenTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
@@ -73,8 +73,8 @@
       <recent name="coroutines" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SortOddEvenTest.testSortElevenNumber">
-    <configuration name="SortOddEvenTest.testSort" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SortOddEvenTest.testSortElevenNumbers">
+    <configuration name="SortOddEvenTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -87,7 +87,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;SortOddEvenTest.testSort&quot;" />
+            <option value="&quot;SortOddEvenTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -120,6 +120,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="SortOddEvenTest.testSortElevenNumbers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SortOddEvenTest.testSortElevenNumbers&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="SortOddEvenTest.testSortTenNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -143,19 +166,28 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LaunchJobExample01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coroutines.LaunchJobExample01Kt" />
-      <module name="kotlinprograms.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunBlocking01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coroutines.RunBlocking01Kt" />
-      <module name="kotlinprograms.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="SortOddEvenTest.testSortTenNumbers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SortOddEvenTest.testSortTenNumbers&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -170,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SortOddEvenTest.testSortElevenNumber" />
+        <item itemvalue="Gradle.SortOddEvenTest.testSortElevenNumbers" />
+        <item itemvalue="Gradle.SortOddEvenTest.testSortTenNumbers" />
+        <item itemvalue="Gradle.SortOddEvenTest" />
         <item itemvalue="Gradle.SortOddEvenTest.testSortTenNumber" />
-        <item itemvalue="Gradle.SortOddEvenTest.testSort" />
-        <item itemvalue="Kotlin.LaunchJobExample01Kt" />
-        <item itemvalue="Kotlin.RunBlocking01Kt" />
+        <item itemvalue="Gradle.SortOddEvenTest.testSortElevenNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655351245508</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sorting by Colors / Odd numbers first&#10;Update Gradle &amp; Workspace">
+      <created>1675435425765</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675435425765</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,6 +249,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Longest Palindrome - In Progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Longest Palindrome - In Progress" />
+    <MESSAGE value="Sorting by Colors / Odd numbers first&#10;Update Gradle &amp; Workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorting by Colors / Odd numbers first&#10;Update Gradle &amp; Workspace" />
   </component>
 </project>
